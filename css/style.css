@@ -133,14 +133,11 @@ html{
 }
 
 @keyframes textanim{
-  25%{
+  34%{
     content: " Developer";
   }
-  50%{
+  68%{
     content: " Diseñador";
-  }
-  75%{
-    content: "A Youtuber";
   }
 }
 
