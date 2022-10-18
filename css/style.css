@@ -102,12 +102,13 @@ html{
 }
 
 #home{
-  height: 100vh;
-  min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  height: 90vh;
+  min-height: 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/office.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
+
 
 #home .inner-width{
   display: flex;
@@ -128,16 +129,16 @@ html{
 }
 
 #home .content h1::after{
-  content: "Matias chicote";
-  animation: textanim 10s linear infinite;
+  content: " Coffee-Time";
+  animation: textanim 12s linear infinite;
 }
 
 @keyframes textanim{
   34%{
-    content: " Developer";
+    content: " Developers";
   }
   68%{
-    content: " Diseñador";
+    content: " Diseñadores";
   }
 }
 
@@ -219,7 +220,7 @@ section{
 
 .about-pic{
   width: 200px;
-  border-radius: 50%;
+  border-radius: 20%;
   margin-right: 100px;
 }
 
