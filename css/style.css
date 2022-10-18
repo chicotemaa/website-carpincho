@@ -129,7 +129,7 @@ html{
 }
 
 #home .content h1::after{
-  content: " Coffee-Time";
+  content: " Carpinchodev";
   animation: textanim 12s linear infinite;
 }
 
