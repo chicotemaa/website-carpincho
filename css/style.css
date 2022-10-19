@@ -475,6 +475,11 @@ section.dark .section-title::after{
   transition: .3s linear;
 }
 
+.numero-telefonico,
+.gps {
+  color: #fff;
+}
+
 .contact-info i{
   display: block;
   font-size: 40px;
